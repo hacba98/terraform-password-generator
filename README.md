@@ -7,3 +7,4 @@ Some notes of the random string:
 
 - Included special characters: "@!#$\_-=+"
 - Writes down the string to local machine for archive purpose if the string is destroyed.
+# terraform-ssh-key-gen
