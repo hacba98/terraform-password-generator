@@ -15,6 +15,6 @@ resource "random_password" "password_generator" {
   # everytime the string is changed -> store old string to local
   provisioner "local-exec" {
     when    = destroy
-    command = "echo ${self.result} >> ./secrets/pwd.txt"
+    command = "echo ${self.result} >> ./secrets.txt"
   }
 }
